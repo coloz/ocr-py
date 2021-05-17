@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+opencv-contrib-python = "*"
+opencv-python = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.8"
